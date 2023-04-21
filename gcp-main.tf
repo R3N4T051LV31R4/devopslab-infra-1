@@ -10,7 +10,7 @@ resource "google_compute_instance" "firstvm" {
       image = "ubuntu-2004-focal-v20230213"
     }
   }
-
+  
 resource "google_artifact_registry_repository" "my-repo" {
   location = var.region
   repository_id = "labdevops"
